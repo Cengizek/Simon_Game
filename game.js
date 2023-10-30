@@ -11,7 +11,7 @@ var level=0;
 
 $(document).keypress(function(){
  if(!started){
-        $("#level-title").text("Level " +level);
+        $("#level-title").text("Level " + level);
         nextSequence();
         started = true;
     }
@@ -66,7 +66,7 @@ function nextSequence(){
      userClickedPattern=[];
    
     level++;
-    $("#level-title").text("Level " +level);
+    $("#level-title").text("Level " + level);
 
 
 
