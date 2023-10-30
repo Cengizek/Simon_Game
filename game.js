@@ -66,7 +66,7 @@ function nextSequence(){
      userClickedPattern=[];
    
     level++;
-    $("#level-title").text("Level" +level);
+    $("#level-title").text("Level " +level);
 
 
 
